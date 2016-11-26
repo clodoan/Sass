@@ -1,0 +1,14 @@
+.menu {
+  background: $celeste;
+
+  ul {
+    margin: 0;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+// Lo que hace es simplificar la seleccion de las clases. Usas menos caracteres. Todo lo que esté
+// dentro de las llaves sigue seleccionando hacia adentro hijos. Ver que lo traduce simultáneamente
+// a css.

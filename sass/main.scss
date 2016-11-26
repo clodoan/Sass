@@ -1,0 +1,8 @@
+// siempre el ppal sólo queda con los import y cada section tiene su propio archivo
+@import "variables";
+@import "base";
+// hay que importar el archivo para hacerle saber dónde están las variables
+@import "menu";
+@import "home";
+@import "parrafo";
+// importa el orden! sigue siendo de cascada: si hay algo en un import que modifique lo de antes queda el último
